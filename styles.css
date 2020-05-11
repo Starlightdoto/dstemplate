@@ -1,0 +1,297 @@
+*{
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration:none;
+}
+
+body{
+	font-family:serif;
+	/*font-family: 'Marcellus SC', serif;*/
+	background:url('../images/bg-3.jpg');
+	margin:0;
+}
+
+/* ======================
+============ HEADER =============================*/
+
+.main__header{
+	border:1px solid black;
+}
+
+.head__container{
+	background-color:#333;
+	max-height:360px;
+	height:auto;
+	padding:25px;
+	display:flex;
+	justify-content: space-between;
+}
+
+#searchbox{
+	background-color:#333;
+	border-color:#EBEFF2;
+	border-width:0.5px;
+	border-radius:6px;
+	padding:8px;
+}
+
+.nav__link{
+	margin:5px 15px;
+	color: #b4b2b0;
+	font-family: 'Marcellus SC', serif;
+	font-size:0.95em;
+}
+
+.nav__link:hover ,.form__link:hover{
+	color:#fff;
+}
+
+.form__link{
+	margin:5px 12px;
+	color: #b4b2b0;
+	font-size:1.05em;
+}
+
+
+
+/* ======================
+============ END - OF - HEADER =============================*/
+
+
+/* ===========================
+===================== MAIN BODY ========================= */
+
+
+.logo__link{
+	background:url('../images/logo-img.png') no-repeat;
+	width:270px;
+	height:90px;
+	margin:20px 30px;
+}
+
+.inner__body{
+	background:rgba(0,0,0,0.8);
+	width:auto;
+	height:auto;
+	margin:25px;
+	border-top:2.5px solid #AB966F;
+	border-bottom:2.5px solid #AB966F;
+	padding:10px;
+	padding-bottom:30px;
+}
+
+.home__page__title{
+	margin:20px;
+	color:#fff;
+	font-family: 'Marcellus SC', serif;
+	font-size:1.7em;
+	border-bottom:2.5px solid #AB966F;
+	font-weight:400;
+}
+
+.home__page__title:hover{
+	color: #AB966F;
+}
+
+.test__container{
+	display:flex;
+	justify-content: space-between;
+}
+
+.test__container p{
+	color:#b4b2b0;
+}
+
+.wiki__link{
+	margin:0px 20px;
+	font-style:italic;
+	color:#fff;
+}
+
+.wiki__link:hover{
+	text-decoration:underline;
+	color:#04385E;
+}
+
+.title__logo{
+	background:url('../images/fire-circle.png')round;
+	width:200px;
+	height:200px;
+	display:inline-block;
+}
+
+#intext_link{
+	color:#AB966F;
+}
+
+.main__hr{
+	background-image:url('../images/hr.png');
+	margin-top: 20px;
+    margin-bottom: 20px;
+    height: 13px;
+    max-width: 964px;
+    border:0;
+}
+.menu__nav{
+	text-align:center;
+}
+
+.menu__nav__item{
+	font-family: 'Marcellus SC', serif;
+	color:#AB966F;
+	font-weight:400;
+}
+
+.menu__nav__item:hover{
+	text-decoration:underline;
+}
+
+.ext__link{
+	color: #fff;
+	font-size:1em;
+	font-weight:400;
+	text-align:left;
+	text-transform: uppercase;
+	font-family: 'Marcellus SC', serif;
+	border-top:3px solid #AB966F;
+	border-bottom:3px solid #AB966F;
+	padding:10px;
+}
+
+.comment__block{
+	margin:20px 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.comment_logo{
+	background:url('../images/fire-circle.png') round;
+	width:200px;
+	height:200px;
+}
+
+.comment__container{
+	padding:20px;
+	background-color:rgba(83,83,79,0.5);
+	width:700px;
+	position:relative;
+}
+
+.avatar{
+
+	background:url('../images/avatar.png') round;
+	width:65px;
+	height:60px;
+	float:left;
+	border:2px solid rgba(255,255,255,0.8);
+	background-color:rgba(255,255,255,0.6);
+	padding:0;
+}
+
+#comment_input{
+
+	float:right;
+	width:550px;
+	height:120px;
+	border:1px solid rgba(255,255,255,0.8);
+	background-color:rgba(0,0,0,0.6);
+	box-shadow:0px 0px 3px rgba(255,255,255,0.8) ;
+}
+
+.submit__button{
+	text-align:center;
+	position:absolute;
+	bottom:10px;
+	left:340px;
+	background-color:rgba(255,255,255,0.7);
+	padding:10px;
+	width:100px;
+	height:auto;
+	border:1px solid rgba(255,255,255,1);
+	box-shadow:0px 0px 3px rgba(255,255,255,0.1) ;
+	border-radius:2px;
+}
+
+
+/* ============================ END OF MAIN CONTENT PAGE ============================*/
+
+
+
+
+/* =========================== FOOTER ================================ */
+
+
+.footer__container{
+	height:160px;
+	/*height:auto;*/
+}
+
+
+.footer__license{
+	color:#fff;
+	font-size:1em;
+	font-weight:400;
+	text-align:center;
+	margin:30px;
+}
+
+#license_link{
+	color:#AB966F;
+}
+#license_link:hover{
+	text-decoration: underline;
+}
+
+.footer__link{
+	font-size:0.9em;
+	font-weight:600;
+	display:inline;
+	color:#AB966F;
+	border-right:0.5px solid #fff;
+	margin:10px 10px;
+	padding:8px;
+	line-height: 2;
+}
+
+.footer__link:hover{
+	text-decoration: underline;
+}
+
+.footer__nav{
+	text-align: center;
+	padding:10px;
+	width:60%;
+	height:auto;
+	margin:0 auto;
+}
+
+
+
+
+
+.scroll__bar{
+	width:100%;
+	background-color:rgba(0,0,0,0.6);
+	height:50px;
+	border-top:3px solid #AB966F;
+	position: fixed;
+	bottom:0;
+	left:0;
+	z-index:100;
+}
+
+
+#scroll_text{
+	color:#fff;
+	text-align:right;
+	margin:5px 20px;
+	font-size:1.1em;
+	color:#AB966F;
+}
+
+#scroll_text:hover{
+	text-decoration: underline;
+}
+
