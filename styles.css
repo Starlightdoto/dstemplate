@@ -9,7 +9,7 @@ a{
 body{
 	font-family:serif;
 	/*font-family: 'Marcellus SC', serif;*/
-	background:url('../images/bg-3.jpg');
+	background:url('../../images/bg-3.jpg');
 	margin:0;
 }
 
@@ -65,7 +65,7 @@ body{
 
 
 .logo__link{
-	background:url('../images/logo-img.png') no-repeat;
+	background:url('../../images/logo-img.png') no-repeat;
 	width:270px;
 	height:90px;
 	margin:20px 30px;
@@ -116,7 +116,7 @@ body{
 }
 
 .title__logo{
-	background:url('../images/fire-circle.png')round;
+	background:url('../../images/fire-circle.png')round;
 	width:200px;
 	height:200px;
 	display:inline-block;
@@ -127,7 +127,7 @@ body{
 }
 
 .main__hr{
-	background-image:url('../images/hr.png');
+	background-image:url('../../images/hr.png');
 	margin-top: 20px;
     margin-bottom: 20px;
     height: 13px;
@@ -167,7 +167,7 @@ body{
 }
 
 .comment_logo{
-	background:url('../images/fire-circle.png') round;
+	background:url('../../images/fire-circle.png') round;
 	width:200px;
 	height:200px;
 }
@@ -181,7 +181,7 @@ body{
 
 .avatar{
 
-	background:url('../images/avatar.png') round;
+	background:url('../../images/avatar.png') round;
 	width:65px;
 	height:60px;
 	float:left;
@@ -212,6 +212,11 @@ body{
 	border:1px solid rgba(255,255,255,1);
 	box-shadow:0px 0px 3px rgba(255,255,255,0.1) ;
 	border-radius:2px;
+}
+
+.submit__button:hover{
+	cursor:pointer;
+	background-color:#fff;
 }
 
 
